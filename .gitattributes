@@ -1,0 +1,8 @@
+composer.json text eol=lf
+composer.lock text eol=lf
+connect.php text eol=lf
+emailAPI.php text eol=lf
+sendOTP.php text eol=lf
+settings.php text eol=lf
+vendor/autoload.php text eol=lf
+vendor/composer/installed.php text eol=lf
