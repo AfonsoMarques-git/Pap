@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/request_otp.css">
     <title>Reset Password</title>
 </head>
 
@@ -16,27 +17,25 @@
     $stmt->execute(["otp" => $otp]);
     $count = $stmt->rowCount();
     if ($count > 0) { ?>
-        <fieldset>
-            <legend>Reset Password</legend>
+        <div class="container">
+            <div class="titulo">Reset Password</div>
 
             <form action="update_password.php" method="POST">
                 <input type="hidden" name="otp" value="<?php echo $otp; ?>">
-                <div>
-                    <input type="password" name="new_password" required>
-                    <span>New Password</span>
+                <div class="input-box">
+                    <input type="password" name="new_password" placeholder="New Password" required>
                 </div>
 
-                <div>
-                    <input type="password" name="confirm_password" required>
-                    <span>Confirm Password</span>
+                <div class="input-box">
+                    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
                 </div>
 
                 <button class="btnSend">Submit</button>
             </form>
-        </fieldset>
+        </div>
         <?php
     } else {
-        echo "Incorrect OTP, try again later...";
+        echo '<div class="erro">Incorrect OTP, try again later...</div>';
     }
     ?>
 </body>

@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/request_otp.css">
     <title>Enter OTP</title>
 </head>
 
 <body>
-    <fieldset>
-        <legend>Enter OTP</legend>
+    <div class="container">
+        <div class="titulo">Inserir código</div>
 
         <form action="reset_password.php" method="POST">
-            <div>
-                <input type="password" name="otp" required>
+            <div class="input-box">
+                <input type="password" name="otp" placeholder="Código" required>
             </div>
 
-            <button class="btnSend">Submit</button>
+            <button class="btnSend">Submeter</button>
         </form>
-    </fieldset>
+    </div>
 </body>
 
 </html>

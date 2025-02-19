@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             } elseif ($is_admin == 2) {
                 header("Location: ../menu_Sadmin.php");
             } else {
-                header("Location: ../index.php");
+                header("Location: ../../index.php");
             }
         } else {
             $_SESSION['error_login'] = "Nome de utilizador ou senha incorretos.";

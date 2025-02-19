@@ -15,6 +15,7 @@ try {
     $mail->Password = $hostPassword;
     $mail->SMTPSecure = $encryption; // Use TLS encryption
     $mail->Port = $port; // Use port 587 for TLS
+    $mail->isHTML(true);
 
     // Enable verbose debug output
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;

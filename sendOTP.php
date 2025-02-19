@@ -19,20 +19,21 @@ try {
         try {
             require "emailAPI.php";
             // Recipient
-            $mail->setFrom($sender, 'OTP Sender');
+            $mail->CharSet = 'UTF-8';
+            $mail->setFrom($sender, 'Companhia da Mariposa');
             $mail->addAddress($email, 'User');
             $mail->addReplyTo($sender, 'OTP Sender');
 
             //Content
             $mail->isHTML(true);
-            $mail->Subject = 'One Time Password - OTP';
-            $mail->Body = 'Olá, aqui está o seu OTP (One Time Password) <br /><b>' . $otp . '</b>';
+            $mail->Subject = 'Redefinição de Senha';
+            $mail->Body = 'Olá! Aqui está o seu código: ' . $otp . '<br />';
 
             $mail->send();
-            echo 'Olá! O seu otp foi enviado, verifique o seu email.'; ?>
+            echo '<div class="success-message">O seu código foi enviado, verifique o seu email.</div>'; ?>
 
             <br />
-            <a href="enterOTP.php">Insira o seu OTP para resetar a sua password</a>
+            <button class="otp-link" onclick="window.location.href='enterOTP.php'">Redefenir palavra-passe</button>
 
             <?php
         } catch (Exception $e) {
@@ -45,3 +46,14 @@ try {
     echo "Ocorreu um erro ao acessar a base de dados: " . $e->getMessage();
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send OTP</title>
+    <link rel="stylesheet" href="css/request_otp.css">
+</head>
+<body>
+</body>
+</html>
