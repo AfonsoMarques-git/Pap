@@ -30,12 +30,7 @@ try {
             $mail->Body = 'Olá! Aqui está o seu código: ' . $otp . '<br />';
 
             $mail->send();
-            echo '<div class="success-message">O seu código foi enviado, verifique o seu email.</div>'; ?>
-
-            <br />
-            <button class="otp-link" onclick="window.location.href='enterOTP.php'">Redefenir palavra-passe</button>
-
-            <?php
+            echo '<div class="success-message">O seu código foi enviado, verifique o seu email.</div>';
         } catch (Exception $e) {
             echo 'Ocorreu um erro ao enviar o email: ', $mail->ErrorInfo;
         }
@@ -46,14 +41,3 @@ try {
     echo "Ocorreu um erro ao acessar a base de dados: " . $e->getMessage();
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Send OTP</title>
-    <link rel="stylesheet" href="css/request_otp.css">
-</head>
-<body>
-</body>
-</html>

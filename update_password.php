@@ -14,7 +14,7 @@ if ($new_password === $confirm_password) {
         $stmt = $pdo->prepare($sql);
         $stmt->execute(["password" => $plain_password, "otp" => $otp]);
 
-        echo "Password updated successfully.";
+        echo "Palavra-passe atualizada com sucesso, já pode fazer login!";
     } catch (PDOException $e) {
         echo "Ocorreu um erro ao atualizar a password: " . $e->getMessage();
     }
