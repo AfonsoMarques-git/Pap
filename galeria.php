@@ -81,7 +81,7 @@ $isLoggedIn = isset($_SESSION['username']);
 
     </section>
 
-    <?php include('footer.php') ?>
+    <?php include('footer_events.php') ?>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>

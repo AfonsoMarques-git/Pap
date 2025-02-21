@@ -3008,3 +3008,913 @@
 
 2025-02-20 15:05:30	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
 
+2025-02-21 11:21:54	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:21:46 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:21:54	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:21:54	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:21:54	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:21:54	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:21:54	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:21:54	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:21:54	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:21:54	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:21:54	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:21:54	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:21:54	CLIENT -> SERVER: RCPT TO:<arthur.a.manes@gmail.com>
+
+2025-02-21 11:21:54	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:21:54	CLIENT -> SERVER: DATA
+
+2025-02-21 11:21:54	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:21:54 +0100
+
+2025-02-21 11:21:54	CLIENT -> SERVER: To: User <arthur.a.manes@gmail.com>
+
+2025-02-21 11:21:54	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Message-ID: <ul7ZqdJw7Cs7o7u3nKigFRGllJLiFvxvdnjI13IJYWw@localhost>
+
+2025-02-21 11:21:54	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:21:54	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:21:54	CLIENT -> SERVER: 
+
+2025-02-21 11:21:54	CLIENT -> SERVER: Olá! Aqui está o seu código: 650244<br />
+
+2025-02-21 11:21:54	CLIENT -> SERVER: 
+
+2025-02-21 11:21:54	CLIENT -> SERVER: .
+
+2025-02-21 11:21:55	SERVER -> CLIENT: 250 OK id=1tlR6J-000755-0x
+
+2025-02-21 11:21:55	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:21:55	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:44:12 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:44:19	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:44:19	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:44:19	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:44:19	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:44:19	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:44:19	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:44:19	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:44:19	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:44:19	CLIENT -> SERVER: DATA
+
+2025-02-21 11:44:19	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:44:19 +0100
+
+2025-02-21 11:44:19	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 11:44:19	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Message-ID: <pAjyBIB1dzaAOoJ3dx5zVxjQH31URCVnH0sZ5DiY@localhost>
+
+2025-02-21 11:44:19	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:44:19	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:44:19	CLIENT -> SERVER: 
+
+2025-02-21 11:44:19	CLIENT -> SERVER: Olá! Aqui está o seu código: 792164<br />
+
+2025-02-21 11:44:19	CLIENT -> SERVER: 
+
+2025-02-21 11:44:19	CLIENT -> SERVER: .
+
+2025-02-21 11:44:20	SERVER -> CLIENT: 250 OK id=1tlRS0-0006IO-2f
+
+2025-02-21 11:44:20	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:44:20	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:46:23	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:46:16 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:46:23	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:46:23	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:46:23	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:46:23	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:46:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:46:23	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:46:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:46:24	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:46:24	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:46:24	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:46:24	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 11:46:24	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:46:24	CLIENT -> SERVER: DATA
+
+2025-02-21 11:46:24	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:46:24 +0100
+
+2025-02-21 11:46:24	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 11:46:24	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Message-ID: <vGN9PYVQbmTsfUMkajfWT8be1iBtv0YxHlPWyTxQW4o@localhost>
+
+2025-02-21 11:46:24	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:46:24	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:46:24	CLIENT -> SERVER: 
+
+2025-02-21 11:46:24	CLIENT -> SERVER: Olá! Aqui está o seu código: 777324<br />
+
+2025-02-21 11:46:24	CLIENT -> SERVER: 
+
+2025-02-21 11:46:24	CLIENT -> SERVER: .
+
+2025-02-21 11:46:24	SERVER -> CLIENT: 250 OK id=1tlRU1-0007Bz-0N
+
+2025-02-21 11:46:24	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:46:24	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:48:44 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:48:51	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:48:51	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:48:51	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:48:51	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:48:51	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:48:51	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:48:51	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:48:51	CLIENT -> SERVER: RCPT TO:<lobo10765@gmail.com>
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:48:51	CLIENT -> SERVER: DATA
+
+2025-02-21 11:48:51	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:48:51 +0100
+
+2025-02-21 11:48:51	CLIENT -> SERVER: To: User <lobo10765@gmail.com>
+
+2025-02-21 11:48:51	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Message-ID: <wTQAbEJqrwdNMBK9h6uhHGShVncot4oxTgtBEop1o@localhost>
+
+2025-02-21 11:48:51	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:48:51	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:48:51	CLIENT -> SERVER: 
+
+2025-02-21 11:48:51	CLIENT -> SERVER: Olá! Aqui está o seu código: 879274<br />
+
+2025-02-21 11:48:51	CLIENT -> SERVER: 
+
+2025-02-21 11:48:51	CLIENT -> SERVER: .
+
+2025-02-21 11:48:52	SERVER -> CLIENT: 250 OK id=1tlRWO-0007qZ-28
+
+2025-02-21 11:48:52	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:48:52	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:54:06 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:54:13	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:54:13	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:54:13	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:54:13	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:54:13	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:54:13	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:54:13	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:54:13	CLIENT -> SERVER: RCPT TO:<lobo10765@gmail.com>
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:54:13	CLIENT -> SERVER: DATA
+
+2025-02-21 11:54:13	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:54:13 +0100
+
+2025-02-21 11:54:13	CLIENT -> SERVER: To: User <lobo10765@gmail.com>
+
+2025-02-21 11:54:13	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Message-ID: <qWwVfrucInw3Lfxk6yndglIl67GHO3cw6j4PhYu4icg@localhost>
+
+2025-02-21 11:54:13	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:54:13	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:54:13	CLIENT -> SERVER: 
+
+2025-02-21 11:54:13	CLIENT -> SERVER: Olá! Aqui está o seu código: 899532<br />
+
+2025-02-21 11:54:13	CLIENT -> SERVER: 
+
+2025-02-21 11:54:13	CLIENT -> SERVER: .
+
+2025-02-21 11:54:14	SERVER -> CLIENT: 250 OK id=1tlRba-0001R1-1k
+
+2025-02-21 11:54:14	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:54:14	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:55:08 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:55:16	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:55:16	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:55:16	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:55:16	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:55:16	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:55:16	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:55:16	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:55:16	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:55:16	CLIENT -> SERVER: DATA
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:55:16 +0100
+
+2025-02-21 11:55:16	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 11:55:16	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Message-ID: <Fes9jnx8XFL7YhUu8wAxGkDCNtGZ2NAtFC2S2eWk@localhost>
+
+2025-02-21 11:55:16	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:55:16	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:55:16	CLIENT -> SERVER: 
+
+2025-02-21 11:55:16	CLIENT -> SERVER: Olá! Aqui está o seu código: 352899<br />
+
+2025-02-21 11:55:16	CLIENT -> SERVER: 
+
+2025-02-21 11:55:16	CLIENT -> SERVER: .
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 250 OK id=1tlRcb-0001p5-0i
+
+2025-02-21 11:55:16	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:55:16	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:58:21 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:58:28	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:58:28	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:58:28	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:58:28	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:58:28	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:58:28	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:58:28	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:58:28	CLIENT -> SERVER: RCPT TO:<lobo10765@gmail.com>
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:58:28	CLIENT -> SERVER: DATA
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:58:28 +0100
+
+2025-02-21 11:58:28	CLIENT -> SERVER: To: User <lobo10765@gmail.com>
+
+2025-02-21 11:58:28	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Message-ID: <hLn9A8YQfRePrzh8iqc2rQvI8rb8Z44Ml3duRkdY@localhost>
+
+2025-02-21 11:58:28	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:58:28	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:58:28	CLIENT -> SERVER: 
+
+2025-02-21 11:58:28	CLIENT -> SERVER: Olá! Aqui está o seu código: 398255<br />
+
+2025-02-21 11:58:28	CLIENT -> SERVER: 
+
+2025-02-21 11:58:28	CLIENT -> SERVER: .
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:58:21 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:58:28	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:58:28	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:58:28	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:58:28	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:58:29	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:58:29	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:58:29	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:58:29	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:58:29	CLIENT -> SERVER: RCPT TO:<lobo10765@gmail.com>
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:58:29	CLIENT -> SERVER: DATA
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:58:29 +0100
+
+2025-02-21 11:58:29	CLIENT -> SERVER: To: User <lobo10765@gmail.com>
+
+2025-02-21 11:58:29	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Message-ID: <PoFuqRY4aFMoGCx3w7LsyFAiPybAK28AzSzNFEa9Ds@localhost>
+
+2025-02-21 11:58:29	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:58:29	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:58:29	CLIENT -> SERVER: 
+
+2025-02-21 11:58:29	CLIENT -> SERVER: Olá! Aqui está o seu código: 406945<br />
+
+2025-02-21 11:58:29	CLIENT -> SERVER: 
+
+2025-02-21 11:58:29	CLIENT -> SERVER: .
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 250 OK id=1tlRfh-0002qT-1X
+
+2025-02-21 11:58:29	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 250 OK id=1tlRfi-0002qW-08
+
+2025-02-21 11:58:29	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:58:29	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 11:59:16 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 11:59:23	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 11:59:23	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 11:59:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:59:23	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 11:59:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 11:59:23	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 11:59:23	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 250 OK
+
+2025-02-21 11:59:23	CLIENT -> SERVER: RCPT TO:<lobo10765@gmail.com>
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 11:59:23	CLIENT -> SERVER: DATA
+
+2025-02-21 11:59:23	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 12:59:23 +0100
+
+2025-02-21 11:59:23	CLIENT -> SERVER: To: User <lobo10765@gmail.com>
+
+2025-02-21 11:59:23	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Message-ID: <xmAU1KJHu9s8UCLwH4vDO8sdf7dX4TAPEVZouJDxRVI@localhost>
+
+2025-02-21 11:59:23	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 11:59:23	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 11:59:23	CLIENT -> SERVER: 
+
+2025-02-21 11:59:23	CLIENT -> SERVER: Olá! Aqui está o seu código: 699413<br />
+
+2025-02-21 11:59:23	CLIENT -> SERVER: 
+
+2025-02-21 11:59:23	CLIENT -> SERVER: .
+
+2025-02-21 11:59:24	SERVER -> CLIENT: 250 OK id=1tlRga-00039F-2T
+
+2025-02-21 11:59:24	CLIENT -> SERVER: QUIT
+
+2025-02-21 11:59:24	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 12:01:13 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 12:01:20	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 12:01:20	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 12:01:20	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:20	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 12:01:20	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:20	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 12:01:20	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 250 OK
+
+2025-02-21 12:01:20	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 12:01:20	CLIENT -> SERVER: DATA
+
+2025-02-21 12:01:20	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 13:01:20 +0100
+
+2025-02-21 12:01:20	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 12:01:20	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Message-ID: <gD4DFVoCwyyoJk73f9COnW7geD5efHRpKOzNUtwlI@localhost>
+
+2025-02-21 12:01:20	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 12:01:20	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 12:01:20	CLIENT -> SERVER: 
+
+2025-02-21 12:01:20	CLIENT -> SERVER: Olá! Aqui está o seu código: 500415<br />
+
+2025-02-21 12:01:20	CLIENT -> SERVER: 
+
+2025-02-21 12:01:20	CLIENT -> SERVER: .
+
+2025-02-21 12:01:22	SERVER -> CLIENT: 250 OK id=1tlRiT-0003st-2g
+
+2025-02-21 12:01:22	CLIENT -> SERVER: QUIT
+
+2025-02-21 12:01:22	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 12:01:16 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 12:01:23	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 12:01:23	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 12:01:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:23	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 12:01:23	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:23	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 12:01:23	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 250 OK
+
+2025-02-21 12:01:23	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 12:01:23	CLIENT -> SERVER: DATA
+
+2025-02-21 12:01:23	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 13:01:23 +0100
+
+2025-02-21 12:01:23	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 12:01:23	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Message-ID: <Manl2vhGqTCktoQZtqdAT6hHkLjv0WITDfhAwlHGwc@localhost>
+
+2025-02-21 12:01:23	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 12:01:23	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 12:01:23	CLIENT -> SERVER: 
+
+2025-02-21 12:01:23	CLIENT -> SERVER: Olá! Aqui está o seu código: 242201<br />
+
+2025-02-21 12:01:23	CLIENT -> SERVER: 
+
+2025-02-21 12:01:23	CLIENT -> SERVER: .
+
+2025-02-21 12:01:24	SERVER -> CLIENT: 250 OK id=1tlRiW-0003tN-1P
+
+2025-02-21 12:01:24	CLIENT -> SERVER: QUIT
+
+2025-02-21 12:01:24	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 12:01:34 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 12:01:41	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 12:01:41	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 12:01:41	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:41	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 12:01:41	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:01:41	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 12:01:41	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 250 OK
+
+2025-02-21 12:01:41	CLIENT -> SERVER: RCPT TO:<arthur.a.manes@gmail.com>
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 12:01:41	CLIENT -> SERVER: DATA
+
+2025-02-21 12:01:41	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 13:01:41 +0100
+
+2025-02-21 12:01:41	CLIENT -> SERVER: To: User <arthur.a.manes@gmail.com>
+
+2025-02-21 12:01:41	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Message-ID: <BiTLd2YqCIpELH372qsiJioWWV6I4r5tFiBie14XKXE@localhost>
+
+2025-02-21 12:01:41	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 12:01:41	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 12:01:41	CLIENT -> SERVER: 
+
+2025-02-21 12:01:41	CLIENT -> SERVER: Olá! Aqui está o seu código: 373595<br />
+
+2025-02-21 12:01:41	CLIENT -> SERVER: 
+
+2025-02-21 12:01:41	CLIENT -> SERVER: .
+
+2025-02-21 12:01:42	SERVER -> CLIENT: 250 OK id=1tlRio-0003yx-26
+
+2025-02-21 12:01:42	CLIENT -> SERVER: QUIT
+
+2025-02-21 12:01:42	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 220-cpanel107.dnscpanel.com ESMTP Exim 4.96.2 #2 Fri, 21 Feb 2025 12:21:09 +0000 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+2025-02-21 12:21:17	CLIENT -> SERVER: EHLO localhost
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 250-cpanel107.dnscpanel.com Hello localhost [213.58.193.37]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+2025-02-21 12:21:17	CLIENT -> SERVER: AUTH LOGIN
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-02-21 12:21:17	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:21:17	SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-02-21 12:21:17	CLIENT -> SERVER: [credentials hidden]
+2025-02-21 12:21:17	SERVER -> CLIENT: 235 Authentication succeeded
+
+2025-02-21 12:21:17	CLIENT -> SERVER: MAIL FROM:<testes@companhiadamariposa.pt>
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 250 OK
+
+2025-02-21 12:21:17	CLIENT -> SERVER: RCPT TO:<afonsolobo945@gmail.com>
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 250 Accepted
+
+2025-02-21 12:21:17	CLIENT -> SERVER: DATA
+
+2025-02-21 12:21:17	SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Date: Fri, 21 Feb 2025 13:21:17 +0100
+
+2025-02-21 12:21:17	CLIENT -> SERVER: To: User <afonsolobo945@gmail.com>
+
+2025-02-21 12:21:17	CLIENT -> SERVER: From: Companhia da Mariposa <testes@companhiadamariposa.pt>
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Reply-To: OTP Sender <testes@companhiadamariposa.pt>
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Subject: =?UTF-8?Q?Redefini=C3=A7=C3=A3o_de_Senha?=
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Message-ID: <i8NhXEETMB4KNP1oxODEbsfrWZHMdAvLC8W1TmqOuM@localhost>
+
+2025-02-21 12:21:17	CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+2025-02-21 12:21:17	CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+2025-02-21 12:21:17	CLIENT -> SERVER: 
+
+2025-02-21 12:21:17	CLIENT -> SERVER: Olá! Aqui está o seu código: 641055<br />
+
+2025-02-21 12:21:17	CLIENT -> SERVER: 
+
+2025-02-21 12:21:17	CLIENT -> SERVER: .
+
+2025-02-21 12:21:18	SERVER -> CLIENT: 250 OK id=1tlS1l-0002tV-2r
+
+2025-02-21 12:21:18	CLIENT -> SERVER: QUIT
+
+2025-02-21 12:21:18	SERVER -> CLIENT: 221 cpanel107.dnscpanel.com closing connection
+

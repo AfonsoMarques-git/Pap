@@ -103,7 +103,7 @@
         <button id="close-popup">Fechar</button>
     </div>
 
-    <?php include 'footer.php'; ?>
+    <?php include 'footer_events.php'; ?>
 </body>
 
 </html>

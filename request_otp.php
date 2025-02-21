@@ -18,6 +18,7 @@
                     <input type="text" name="email" required placeholder="Email">
                 </div>
                 <button class="btnSend" id="sendButton">Enviar</button>
+                <button class="btnBack" onclick="window.history.back();">Voltar</button>
             </form>
             <div id="message" style="display: none;"></div>
             <button class="otp-link" id="resetButton" style="display: none;" onclick="window.location.href='enterOTP.php'">Redefinir palavra-passe</button>

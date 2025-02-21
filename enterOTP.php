@@ -18,6 +18,7 @@
             </div>
 
             <button class="btnSend">Submeter</button>
+            <button class="btnBack" onclick="window.history.back();">Voltar</button>
         </form>
     </div>
 </body>
